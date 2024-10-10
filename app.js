@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { PORT } from './config.js';
 import WebGL from 'three/addons/capabilities/WebGL.js';
 
 const scene = new THREE.Scene();
